@@ -24,7 +24,6 @@ pipeline {
                     pip3 install robotframework --break-system-packages
                     pip3 install robotframework-jsonlibrary --break-system-packages
                     robot --version
-                    echo 'Running Tests'
                     robot TestingFW.robot  
                     '''
                 }
