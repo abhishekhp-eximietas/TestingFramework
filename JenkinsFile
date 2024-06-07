@@ -21,8 +21,8 @@ pipeline {
                     echo 'Checking Pre-requisites'
                     python3 --version
                     newman --version
-                    pip3 install robotframework
-                    pip3 install robotframework-jsonlibrary
+                    pip install robotframework
+                    pip install robotframework-jsonlibrary
                     npm instal -g newman
                     robot --version
                     echo 'Running Tests'
