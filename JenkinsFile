@@ -23,7 +23,6 @@ pipeline {
                     newman --version
                     pip3 install robotframework --break-system-packages
                     pip3 install robotframework-jsonlibrary --break-system-packages
-                    robot --version
                     robot TestingFW.robot  
                     '''
                 }
