@@ -23,7 +23,7 @@ pipeline {
                     newman --version
                     pip3 install robotframework --break-system-packages
                     pip3 install robotframework-jsonlibrary --break-system-packages
-                    npm instal -g newman
+                    npm install -g newman
                     robot --version
                     echo 'Running Tests'
                     '''
